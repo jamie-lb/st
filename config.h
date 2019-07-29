@@ -31,15 +31,9 @@ static float chscale = 1.0;
 /*
  * word delimiter string
  *
-<<<<<<< HEAD
- * More advanced example: " `'\"()[]{}"
- */
-char *worddelimiters = " ";
-=======
  * More advanced example: L" `'\"()[]{}"
  */
 wchar_t *worddelimiters = L" ";
->>>>>>> aa8bc721e7bf3aba5a7e9c595a2738c4663ab7e7
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -91,24 +85,6 @@ unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-<<<<<<< HEAD
-	"#2e3436",
-	"#cc0000",
-	"#4e9a06",
-	"#c4a000",
-	"#3465a4",
-	"#75507b",
-	"#06989a",
-	"#d3d7cf",
-	"#555753",
-	"#ef2929",
-	"#8ae234",
-	"#fce94f",
-	"#729fcf",
-	"#ad7fa8",
-	"#34e2e2",
-	"#eeeeec",
-=======
 	/* 8 normal colors */
 	"#131313",
 	"#800000",
@@ -128,22 +104,16 @@ static const char *colorname[] = {
 	"#75507b",
 	"#08c2c4",
 	"#c6c6c6",
->>>>>>> aa8bc721e7bf3aba5a7e9c595a2738c4663ab7e7
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-<<<<<<< HEAD
-	"#1f242f",
-	"#f7f7f7",
-=======
 	"#cccccc",
 	"#333333",
 	"#d7d7d7",
 	"#1f242f",
 	"#f8f8f8",
 	"#171717",
->>>>>>> aa8bc721e7bf3aba5a7e9c595a2738c4663ab7e7
 };
 
 
@@ -151,17 +121,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-<<<<<<< HEAD
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
-=======
 unsigned int defaultfg = 261;
 unsigned int defaultbg = 260;
 static unsigned int defaultcs = 259;
 static unsigned int defaultrcs = 257;
->>>>>>> aa8bc721e7bf3aba5a7e9c595a2738c4663ab7e7
 
 /*
  * Default shape of cursor
