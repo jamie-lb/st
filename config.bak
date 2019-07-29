@@ -5,8 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:style=Bold:pixelsize=12:antialias=true:autohint=slight";
-
+static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 1;
 
 /*
@@ -31,9 +30,9 @@ static float chscale = 1.0;
 /*
  * word delimiter string
  *
- * More advanced example: L" `'\"()[]{}"
+ * More advanced example: " `'\"()[]{}"
  */
-wchar_t *worddelimiters = L" ";
+char *worddelimiters = " ";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -43,8 +42,8 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 120;
-static unsigned int actionfps = 30;
+static unsigned int xfps = 400;
+static unsigned int actionfps = 60;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
@@ -110,8 +109,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#333333",
-	"#d7d7d7",
-	"#1f242f",
+	"#a8a8a8",
+	"#040106",
 };
 
 
