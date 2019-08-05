@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=14:antialias=true:autohint=slight";
+static char *font = "monospace:style=Bold:pixelsize=14:antialias=true:autohint=slight";
 
 static int borderpx = 1;
 
@@ -112,8 +112,6 @@ static const char *colorname[] = {
 	"#333333",
 	"#d7d7d7",
 	"#1f242f",
-	"#f8f8f8",
-	"#171717",
 };
 
 
@@ -121,9 +119,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 261;
-unsigned int defaultbg = 260;
-static unsigned int defaultcs = 259;
+unsigned int defaultfg = 258;
+unsigned int defaultbg = 259;
+static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
 /*
