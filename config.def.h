@@ -95,7 +95,7 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.95;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -151,7 +151,7 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 280;
+static unsigned int cols = 120;
 static unsigned int rows = 32;
 
 /*
